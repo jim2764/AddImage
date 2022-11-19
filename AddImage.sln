@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddImage", "AddImage\AddImage.csproj", "{AE18B07A-F045-41A6-82E8-9150F40371EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE18B07A-F045-41A6-82E8-9150F40371EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE18B07A-F045-41A6-82E8-9150F40371EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE18B07A-F045-41A6-82E8-9150F40371EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE18B07A-F045-41A6-82E8-9150F40371EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FB5B96B-BB88-434B-94D8-8F46ADD13FDA}
+	EndGlobalSection
+EndGlobal
