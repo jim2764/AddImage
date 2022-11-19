@@ -37,7 +37,9 @@ namespace AddImage
 
 			string filename = comboBox1.Text;
 
-			pictureBox1.Image = Image.FromFile($"D:\\Source\\AddImage\\AddImage\\Image\\{filename}");
+			string path = Application.StartupPath.Substring(0, (Application.StartupPath.Length - 10));
+			string destinationPath = path + "\\Image\\" + filename;
+			pictureBox1.Image = Image.FromFile(destinationPath);
 			pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 		}
 	}
